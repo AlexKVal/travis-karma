@@ -4,5 +4,3 @@
 
 [build-badge]: https://travis-ci.org/AlexKVal/travis-karma.svg
 [build]: https://travis-ci.org/AlexKVal/travis-karma
-
-for tun travis
