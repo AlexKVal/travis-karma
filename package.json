@@ -1,0 +1,56 @@
+{
+  "name": "travis-karma",
+  "version": "0.0.0",
+  "description": "Trash project for checking travis + karma",
+  "repository": {
+    "type": "git",
+    "url": "AlexKVal/travis-karma"
+  },
+  "scripts": {
+    "test": "karma start --single-run && npm run lint",
+    "lint": "eslint src test webpack karma.conf.js webpack.config.js"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib/"
+  },
+  "keywords": [
+    "travis+karma"
+  ],
+  "author": "AlexKVal",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=0.13"
+  },
+  "devDependencies": {
+    "babel": "^4.7.0",
+    "babel-core": "^4.7.4",
+    "babel-eslint": "^2.0.2",
+    "babel-loader": "^4.1.0",
+    "chai": "^2.2.0",
+    "es5-shim": "^4.1.0",
+    "eslint": "^0.18.0",
+    "eslint-plugin-react": "^2.1.0",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "karma": "~0.12.32",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "~0.1.1",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma-sinon": "^1.0.3",
+    "karma-sourcemap-loader": "^0.3.4",
+    "karma-webpack": "^1.5.0",
+    "lodash": "^3.5.0",
+    "mocha": "^2.2.1",
+    "react": "^0.13.1",
+    "sinon": "^1.10.3",
+    "webpack": "^1.7.2",
+    "webpack-dev-middleware": "^1.0.11",
+    "yargs": "^3.5.4"
+  },
+  "dependencies": {
+    "classnames": "^1.1.4"
+  }
+}
