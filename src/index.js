@@ -1,5 +1,5 @@
-import constants from './constants';
+import DivMega from './DivMega';
 
 export default {
-  constants
+  DivMega
 };
